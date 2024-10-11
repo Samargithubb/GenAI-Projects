@@ -5,7 +5,7 @@ import pandas as pd
 import schedule
 import time
 
-cred = credentials.Certificate("data/grocery-shop-dabda-firebase-adminsdk-mist8-668de45476.json")
+cred = credentials.Certificate("credential_path")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
